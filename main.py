@@ -10,6 +10,16 @@ from reactpy.backend.fastapi import configure
 app = FastAPI()
 
 @component
+def Task(task):
+    return html.li({
+        "key": task['id'],
+        "style": {
+            "color": "black",
+            "background": "red",
+        }
+        }, task['text']) 
+
+@component
 def TaskList():
     tasks = [
         {"id": 0, "text": "Tarea 1", "priority": 1},
@@ -18,13 +28,7 @@ def TaskList():
         {"id": 3, "text": "Tarea 4", "priority": 4},
     ]
 
-    lis = [html.li({
-        "key": task['id'],
-        "style": {
-            "color": "black",
-            "background": "yellow",
-        }
-        }, task['text']) for task in tasks] 
+    lis = [Task(task) for task in tasks] 
     return html.ul(lis)
 
 @component
