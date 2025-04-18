@@ -11,3 +11,6 @@
 ## Agente escritor de resúmenes
 
 <img width="972" alt="Captura de pantalla 2025-03-30 a las 15 09 00" src="https://github.com/user-attachments/assets/0c53336b-1ea4-4b5a-b5c3-e5ba4e810fd8" />
+
+
+Página web: FastAPI y React
