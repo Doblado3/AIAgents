@@ -35,4 +35,5 @@ Temporary Items
 # iCloud generated files
 *.icloud
 /data
+/conversacion
 ## LanGraph
