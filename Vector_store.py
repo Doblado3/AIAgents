@@ -32,9 +32,6 @@ data = data[1:]
 
 embedder = OllamaEmbeddings(model = "nomic-embed-text:latest")
 
-#model_name = "sentence-transformers/all-mpnet-base-v2"
-#embedder = HuggingFaceEmbeddings(model_name = model_name)
-
 # Vamos a usar como base vectorial FAISS(facebook), automatiza del proceso de generar los embeddings para los docus,
 # almacenarlos en una base de datos, generar los embeddings para las querys y buscar por similitud.
 
