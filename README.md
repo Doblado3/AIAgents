@@ -1,13 +1,7 @@
 # AIAgents
-Este proyecto representa una primera aproximación al mundo de los agentes
- de inteligencia artificial, con el objetivo de explorar su capacidad para interactuar
- con información contextual personalizada. Se ha desarrollado un sistema que,
- aprovechando el potencial de los Grandes Modelos de Lenguaje (LLMs) como
- LLaMA, Claude o Gemini, es capaz de incorporar bases de conocimiento reales y
- específicas al contexto de conversación, permitiendo así responder de forma
- coherente y precisa a preguntas relacionadas con dicha información. Para ello, se
- ha utilizado un conjunto de datos compuesto por transcripciones de
- conversaciones clínicas entre pacientes y profesionales médicos. El stack
- tecnológico empleado para el desarrollo de la solución integra herramientas como
- LangChain, FAISS, Ollama y Gradio, permitiendo la construcción de una
- arquitectura modular, escalable y fácilmente extensible.
+
+This is the Github Repository for the paper presented in the 2025 CIABioMed congress by Rodrigo Naranjo Pozas and Pablo Doblado Mendoza, with the supervision of the Doctor Belén Vega Márquez.
+
+This research investigates the efficacy of Artificial Intelligence Agents in processing and responding to personalized, private contextual information. We experimented studied how to implement a system designed to augment a ope-source Large Language Model (LLM), like LLama, Claude and Gemma, with domain-specific knowledge bases. This augmentation is intended to facilitate the generation of contextually coherent and accurate responses to user queries. The system was developed and tested using different versions of a clinical conversation transcripts dataset between patients and medical professionals, enabling specialized knowledge integration. The architectural framework, built upon LangChain, FAISS, Ollama and Gradio, demonstrates a simple, modular, scalable and extensible design. This work helped us to take our first steps into the development of robust AI agents  capable of leveraging external knowledge for enhanced conversational intelligence in specialized domains.
+
+Please, for any suggestions feel free to contact us here rodnarpoz@alum.us.es
